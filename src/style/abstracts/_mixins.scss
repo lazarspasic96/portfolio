@@ -1,0 +1,28 @@
+/* MEDIA QUERIES MANAGER */
+
+/* 1em = 16px - default font-sizing in browser. When user change that use %of default font-sizing*/ 
+
+
+
+
+
+
+
+@mixin media($breakpoint) {
+    @if $breakpoint == phone {
+        @media only screen and (max-width: 37.5em) /* 600px / 16 = 37.5em */{
+            @content
+        }
+    };
+
+
+    @if $breakpoint == tablet {
+        @media only screen and (max-width: 56.25em) /* 900px / 16 = 56.25em */{
+            @content
+        }
+    }
+};
+
+
+
+
