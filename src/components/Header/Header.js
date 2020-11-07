@@ -5,7 +5,11 @@ class Header extends React.Component {
 
 
     render() {
-        return <h1>this is header</h1>
+        return (
+            <header className = 'header'>
+<h1>header</h1>
+            </header>
+        )
     }
 
 }

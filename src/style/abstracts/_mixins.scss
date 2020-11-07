@@ -3,11 +3,6 @@
 /* 1em = 16px - default font-sizing in browser. When user change that use %of default font-sizing*/ 
 
 
-
-
-
-
-
 @mixin media($breakpoint) {
     @if $breakpoint == phone {
         @media only screen and (max-width: 37.5em) /* 600px / 16 = 37.5em */{
@@ -22,6 +17,14 @@
         }
     }
 };
+
+/* ABOSOLUTE CENTERING */
+@mixin absCenter {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
 
 

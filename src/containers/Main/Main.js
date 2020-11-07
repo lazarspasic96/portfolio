@@ -1,5 +1,5 @@
 import React from 'react'
-import Home from '../../components/UI/Home/Home'
+import Home from '../../components/Home/Home'
 
 class Main extends React.Component {
     constructor(props) {
@@ -8,8 +8,7 @@ class Main extends React.Component {
 
     render() {
         return (
-            <main>
-                <p>main section</p>
+            <main  className = 'main-wrapper'>
                 <Home />
             </main>
 

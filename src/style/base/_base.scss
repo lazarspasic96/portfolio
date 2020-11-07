@@ -9,8 +9,13 @@ html {
 
     @include media(phone) {
         
-        font-size: 56.25%; //1 rem = 9px, 9/16 = 50%
+        font-size: 36.25%; //1 rem = 9px, 9/16 = 50%
     } 
 
+
+}
+
+body {
+   background-color: $color-background-primary;
 
 }
